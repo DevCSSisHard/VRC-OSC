@@ -90,5 +90,3 @@ def play():
 	
 def mute():
 	win32api.keybd_event(Media_Mute, hwcode(Media_Mute))
-	
-	

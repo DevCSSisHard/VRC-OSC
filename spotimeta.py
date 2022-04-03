@@ -2,7 +2,7 @@ import spotipy
 import spotilib
 
 sp = spotipy.Spotify()
-
+#XanderMJ Spotilib
 def find_metadata():
 	results = sp.search(q=spotilib.song(), limit=50)
 	for i, t in enumerate(results['tracks']['items']):

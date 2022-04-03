@@ -4,7 +4,6 @@ from pythonosc.dispatcher import Dispatcher
 from pythonosc.osc_server import BlockingOSCUDPServer
 from pythonosc.udp_client import SimpleUDPClient
 from typing import List, Any
-import spotimeta
 
 def info(client, server):
     my_list = []
@@ -45,7 +44,6 @@ def main():
     #haha funny forever loop for updates. Info doesnt need server but passed it for later work just incase.
     while True:
         info(client, server)
-
 
 if __name__ == '__main__':
     main()

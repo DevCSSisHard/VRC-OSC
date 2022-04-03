@@ -9,7 +9,7 @@ Media_Pause = 0xB3 ##Play/Pause
 Media_Mute = 0xAD
 
 
-
+#XanderMJ - Spotilib - https://github.com/XanderMJ/spotilib
 ###SpotifyInfo###
 def getwindow(Title="Chrome_WidgetWin_0"):
 	window_id = win32gui.FindWindow(Title, None)
